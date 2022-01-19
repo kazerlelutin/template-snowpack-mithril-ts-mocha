@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.counter {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.containerButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.button {
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 3em;
+  background: #dd5fbe;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+}
